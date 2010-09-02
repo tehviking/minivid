@@ -1,0 +1,15 @@
+development:
+  api_host: api.pandastream.com
+  access_key: 1dd6a06c-9f65-11df-97b4-12313b060611
+  secret_key: gw2Mj/7Xu5R+RDIa3cbU5p7K7HXE21+6PRYSpt6s
+  cloud_id: d0f1cdd3349c47f9bae6dea7275a879b
+test:
+  api_host: Hostname of your Panda cloud (different for US and EU clouds)
+  access_key: Your Panda access key
+  secret_key: Your Panda secret key
+  cloud_id: Your Panda cloud id
+production:
+  api_host: api.pandastream.com
+  access_key: 1dd6a06c-9f65-11df-97b4-12313b060611
+  secret_key: gw2Mj/7Xu5R+RDIa3cbU5p7K7HXE21+6PRYSpt6s
+  cloud_id: d0f1cdd3349c47f9bae6dea7275a879b
