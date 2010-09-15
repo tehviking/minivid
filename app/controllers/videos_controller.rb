@@ -7,7 +7,7 @@ class VideosController < ApplicationController
 
   def new
     @video = Video.new
-    profile = "aee71954b75511c03e81e58d221658c6"
+    profile = Panda::Profile.create(:preset_name => "60sec")
   end
 
   def create
