@@ -12,6 +12,9 @@ group :development, :test do
   gem "rspec-rails", ">= 2.0.0.beta.19" 
   gem "cucumber-rails", ">= 0.3.2" 
   gem "webrat", ">= 0.7.2.beta.1"
+  gem "capybara"
+  gem "factory_girl"
+  gem "ruby-debug"
 end
 
 # Use unicorn as the web server
@@ -19,9 +22,6 @@ end
 
 # Deploy with Capistrano
 # gem 'capistrano'
-
-# To use debugger
-# gem 'ruby-debug'
 
 # Bundle the extra gems:
 # gem 'bj'
