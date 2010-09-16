@@ -7,7 +7,6 @@ class VideosController < ApplicationController
 
   def new
     @video = Video.new
-    profile = Panda::Profile.create()
   end
 
   def create
