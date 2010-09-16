@@ -4,9 +4,9 @@ Feature: Upload a video
   I want to upload a video to minivid
 
 Scenario: See the upload page
-  Given I visit the site
+  Given I go to the home page
   When I load the page
-  Then I should see "upload a video"
+  Then I should see "upload a video"	
 
 Scenario: Confirm a video is uploaded
     Given a video

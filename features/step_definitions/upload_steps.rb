@@ -1,5 +1,5 @@
 Given /^I visit the site$/ do
-  pending # express the regexp above with the code you wish you had
+  visit "/"
 end
 
 When /^I load the page$/ do
