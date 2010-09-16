@@ -5,7 +5,7 @@ Feature: Upload a video
 
 Scenario: See the upload page
   Given I go to the home page
-  Then I should see "upload a video"
+  Then I should see "Title"
 
 Scenario: Confirm a video is uploaded
     Given a video
