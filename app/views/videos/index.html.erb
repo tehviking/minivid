@@ -1,0 +1,22 @@
+<div id="columns">
+	<div id="side"> 
+		60-Second Reviews<br /> 
+		Top tags<br /> 
+		Rapid Recipes <br />
+		Shoutouts<br />
+	</div> 
+	
+	<div id="main">
+		<h3>Top 5 videos</h3>
+		<% @videos.each do |video| %>
+			<p>
+			<%= video.title %><br />	
+				<video class="sublime" id="movie" width="320" preload="none" 
+			    poster="<%= video.h264_encoding.screenshots.second %>" controls>
+			    <source src="<%= video.h264_encoding.url %>" type="video/mp4">
+			  	</video>
+			<%= link_to "View full size", video %>
+			</p>
+		<% end %>
+	</div> 
+</div>

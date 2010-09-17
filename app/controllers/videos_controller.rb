@@ -21,4 +21,9 @@ class VideosController < ApplicationController
     @video.destroy
     redirect_to :videos_path
   end
+  
+  def index
+    @videos = Video.limit(5).order("created_at DESC")
+  end
+
 end

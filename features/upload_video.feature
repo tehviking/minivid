@@ -4,7 +4,7 @@ Feature: Upload a video
   I want to upload a video to minivid
 
 Scenario: See the upload page
-  Given I go to the home page
+  Given I visit the upload page
   Then I should see "Title"
 
 Scenario: Confirm a video is uploaded

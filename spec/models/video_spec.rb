@@ -1,5 +1,19 @@
 require 'spec_helper'
 
 describe Video do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "is not valid without a panda video ID or title" do
+    Video.new.should_not be_valid
+  end
+  
+  it "is not valid without a panda video ID" do
+    Video.new(:title => "Awesome video").should_not be_valid
+  end
+    
+  it "is not valid without a title" do
+    Video.new(:panda_video_id => "1234").should_not be_valid
+  end
+  
+  it "is valid with a panda video ID and title" do
+    Video.new(:panda_video_id => "1234", :title => "Awesome video").should be_valid
+  end
 end

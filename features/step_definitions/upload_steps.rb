@@ -1,5 +1,5 @@
-Given /^I visit the site$/ do
-  visit "/"
+Given /^I visit the upload page$/ do
+  visit "/videos/new"
 end
 
 When /^I load the page$/ do

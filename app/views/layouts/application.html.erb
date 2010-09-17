@@ -3,19 +3,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>Videos</title>
+  <title>Minivid</title>
 
   <%= javascript_include_tag  'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js' %>  
-
   <%= javascript_include_tag '/panda_uploader/jquery.panda-uploader-1.0.min.js' %>
+  <%= javascript_include_tag 'http://cdn.sublimevideo.net/js/k9uo5yk3.js'%>
+  <%= stylesheet_link_tag '/stylesheets/scaffold' %>
 
   <!-- For swf player -->
   <%= javascript_include_tag 'swfobject' %>
   
   <%= yield :head %>
-</head>
-<body>
 
+</head>
+
+<body>
+	
+<h1>Minivid</h1>
 <p style="color: green"><%= flash[:notice] %></p>
 
 <%= yield %>
