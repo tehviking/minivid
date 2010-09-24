@@ -9,13 +9,17 @@ Feature: Home page
 
   Scenario: Top Videos
     Given I am on the home page
-    Then I should see "Last 5 videos"
+    Then I should see "Top 5 videos"
 
   Scenario: Categories
     Given I am on the home page
     Then I should see "60-Second Reviews"
 	And I should see "Rapid Recipes"
 	And I should see "Shoutouts"
+
+  Scenario: Tags
+    Given I am on the home page
+    Then I should see "Top tags"
   
   
   

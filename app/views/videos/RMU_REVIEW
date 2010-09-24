@@ -1,0 +1,31 @@
+This is my individual project for RMU.
+
+HOW TO SET UP:
+This is tested on Rails 3 on MRI Ruby 1.8.7.
+
+The site is currently live at http://minivid.heroku.com but you can use this yourself.
+
+- Clone the repository
+- Bundle install
+- Migrate DB
+
+That should be it!
+
+WHAT IS DONE SO FAR:
+In the September session, I've learned a lot from this project:
+It's my first Rails 3 project, as well as my first experience with Cucumber, Capybara, and BDD in general.
+
+The app takes user-uploaded files, tweaks them to truncate at 1 minute using ffmpeg, and uses the pandastream service to encode and put them on my Amazon S3 cloud storage.
+
+It's very basic, but it gets the job done.
+
+WHAT ISN'T DONE:
+I didn't get to implement video tagging, or advanced sharing through sites like Twitter.
+
+The 10-megabyte upload limit is a result of using limited free developer tools, and doesn't allow for any display of errors, so if a user tries to upload anything larger, the app just appears to hang.
+
+The validations don't seem to be working correctly, possibly as a result of this Pandastream "hanging" that happens on upload.
+
+There's no design yet. Just uploading and viewing videos.
+
+I haven't yet set up graceful degradation from HTML5 to Flash. It's all HTML5 now, and it may stay that way.

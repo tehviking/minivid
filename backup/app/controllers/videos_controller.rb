@@ -25,9 +25,5 @@ class VideosController < ApplicationController
   def index
     @videos = Video.limit(5).order("created_at DESC")
   end
-  
-  def all
-    @videos = Video.all
-  end
 
 end

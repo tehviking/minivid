@@ -1,0 +1,18 @@
+<h2><%= @video.title %></h2>
+
+<% if @video.panda_video.status == "processing" %>
+
+The video's still processing, give us a minute and hit Refresh.
+
+<% elsif @video.panda_video.status == "success" %>
+  
+  <!-- HTML5 player -->
+  <video class="sublime"id="movie" width="<%= @h264_encoding.width %>" height="<%= @h264_encoding.height %>" preload="none" 
+    poster="<%= @h264_encoding.screenshots.first %>" controls>
+    <source src="<%= @h264_encoding.url %>" type="video/mp4">
+  </video>
+  
+<% end %>
+
+<p>
+	<%= link_to "Go back to the videos list", videos_path %>

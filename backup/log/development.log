@@ -1,0 +1,1902 @@
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from [] at /Users/bhays/Sites/minivid/config/initializers/panda.rb:1)
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from [] at /Users/bhays/Sites/minivid/config/initializers/panda.rb:1)
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from [] at /Users/bhays/Sites/minivid/config/initializers/panda.rb:1)
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from [] at /Users/bhays/Sites/minivid/config/initializers/panda.rb:1)
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from [] at /Users/bhays/Sites/minivid/config/initializers/panda.rb:1)
+  [1m[36mSQL (1.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (1.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (1.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from [] at /Users/bhays/Sites/minivid/config/initializers/panda.rb:1)
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from [] at /Users/bhays/Sites/minivid/config/initializers/panda.rb:1)
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from [] at /Users/bhays/Sites/minivid/config/initializers/panda.rb:1)
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from [] at /Users/bhays/Sites/minivid/config/initializers/panda.rb:1)
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from [] at /Users/bhays/Sites/minivid/config/initializers/panda.rb:1)
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateVideos (20100911224351)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.7ms)[0m  [1mCREATE TABLE "videos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "panda_video_id" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20100911224351')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("videos")
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 22:23:22 -0600 2010
+  Processing by VideosController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_videos_new_html_erb__316013379_2177031880_0 at /Users/bhays/Sites/minivid/app/views/videos/new.html.erb:1)
+Rendered videos/new.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 32ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/panda_uploader/jquery.panda-uploader-VERSION.min.js" for 127.0.0.1 at Sat Sep 11 22:23:23 -0600 2010
+
+ActionController::RoutingError (No route matches "/panda_uploader/jquery.panda-uploader-VERSION.min.js"):
+  
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 22:34:50 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 26ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/videos" for 127.0.0.1 at Sat Sep 11 22:36:24 -0600 2010
+  Processing by VideosController#create as HTML
+  Parameters: {"commit"=>"Upload video", "authenticity_token"=>"RtaT/9YmUK7H+01d8nmM80tD8puF0SNIXhCu24lACWo=", "utf8"=>"✓", "video"=>{"title"=>"3 Andys", "panda_video_id"=>""}}
+Completed   in 11ms
+
+ActiveRecord::RecordInvalid (Validation failed: Panda video can't be blank):
+  app/controllers/videos_controller.rb:13:in `create'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.7ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 22:42:28 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 25ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 22:46:55 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 25ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 22:48:35 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 27ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 22:54:10 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 26ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 22:59:55 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 26ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:01:05 -0600 2010
+  Processing by VideosController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_videos_new_html_erb__316013379_2176261660_0 at /Users/bhays/Sites/minivid/app/views/videos/new.html.erb:1)
+Rendered videos/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 18ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/videos" for 127.0.0.1 at Sat Sep 11 23:01:08 -0600 2010
+  Processing by VideosController#create as HTML
+  Parameters: {"commit"=>"Upload video", "authenticity_token"=>"RtaT/9YmUK7H+01d8nmM80tD8puF0SNIXhCu24lACWo=", "utf8"=>"✓", "video"=>{"title"=>"", "panda_video_id"=>""}}
+Completed   in 11ms
+
+ActiveRecord::RecordInvalid (Validation failed: Panda video can't be blank):
+  app/controllers/videos_controller.rb:13:in `create'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.6ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:01:39 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 18ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:11:46 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 17ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:12:35 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 25ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:19:00 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 24ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:28:29 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 27ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:31:58 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 26ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:34:37 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 26ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:35:56 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 24ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:35:58 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 17ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:37:54 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 26ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:37:59 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 18ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/videos" for 127.0.0.1 at Sat Sep 11 23:38:03 -0600 2010
+  Processing by VideosController#create as HTML
+  Parameters: {"commit"=>"Upload video", "authenticity_token"=>"RtaT/9YmUK7H+01d8nmM80tD8puF0SNIXhCu24lACWo=", "utf8"=>"✓", "video"=>{"title"=>"zsv", "panda_video_id"=>""}}
+Completed   in 12ms
+
+ActiveRecord::RecordInvalid (Validation failed: Panda video can't be blank):
+  app/controllers/videos_controller.rb:13:in `create'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 11 23:43:41 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 25ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 00:19:44 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 32ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 00:27:13 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 18ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 00:27:48 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 19ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 00:27:59 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 17ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 00:28:54 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 18ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 00:29:10 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 17ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 00:29:46 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 19ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 00:31:46 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 18ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 00:37:20 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 17ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/videos" for 127.0.0.1 at Sun Sep 12 00:37:42 -0600 2010
+  Processing by VideosController#create as HTML
+  Parameters: {"utf8"=>"✓", "video"=>{"title"=>"3 Andys", "panda_video_id"=>"9d0a6814fdf8f370ae81b6cfac64dd0a"}}
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "videos" ("created_at", "panda_video_id", "title", "updated_at") VALUES ('2010-09-12 06:37:42.919642', '9d0a6814fdf8f370ae81b6cfac64dd0a', '3 Andys', '2010-09-12 06:37:42.919642')
+Redirected to http://localhost:3000/videos/1
+Completed 302 Found in 44ms
+
+
+Started GET "/videos/1" for 127.0.0.1 at Sun Sep 12 00:37:42 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE ("videos"."id" = 1) LIMIT 1[0m
+Rendered videos/show.html.erb within layouts/application (275.8ms)
+Completed 200 OK in 1171ms (Views: 281.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/1" for 127.0.0.1 at Sun Sep 12 00:37:56 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 1) LIMIT 1
+Rendered videos/show.html.erb within layouts/application (568.5ms)
+Completed 200 OK in 1201ms (Views: 573.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/0" for 127.0.0.1 at Sun Sep 12 00:37:58 -0600 2010
+  Processing by VideosController#show as */*
+  Parameters: {"id"=>"0"}
+  [1m[36mVideo Load (0.1ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE ("videos"."id" = 0) LIMIT 1[0m
+Completed   in 90ms
+
+ActiveRecord::RecordNotFound (Couldn't find Video with ID=0):
+  app/controllers/videos_controller.rb:3:in `show'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.5ms)
+
+
+Started GET "/videos/1" for 127.0.0.1 at Sun Sep 12 00:40:05 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 1) LIMIT 1
+Rendered videos/show.html.erb within layouts/application (269.4ms)
+Completed 200 OK in 1105ms (Views: 274.3ms | ActiveRecord: 0.2ms)
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos"
+  [1m[36mSQL (1.6ms)[0m  [1mDELETE FROM "videos" WHERE 1=1[0m
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 01:01:31 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 27ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videos/1" for 127.0.0.1 at Sun Sep 12 01:02:19 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 1) LIMIT 1
+Completed   in 31ms
+
+ActiveRecord::RecordNotFound (Couldn't find Video with ID=1):
+  app/controllers/videos_controller.rb:3:in `show'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 01:02:32 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 16ms (Views: 11.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Sun Sep 12 01:02:35 -0600 2010
+
+AbstractController::ActionNotFound (The action 'index' could not be found for VideosController):
+  
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/videos/3" for 127.0.0.1 at Sun Sep 12 01:02:40 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mVideo Load (0.1ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE ("videos"."id" = 3) LIMIT 1[0m
+Completed   in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Video with ID=3):
+  app/controllers/videos_controller.rb:3:in `show'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/videos/2" for 127.0.0.1 at Sun Sep 12 01:02:42 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 2) LIMIT 1
+Completed   in 8ms
+
+ActiveRecord::RecordNotFound (Couldn't find Video with ID=2):
+  app/controllers/videos_controller.rb:3:in `show'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 01:05:42 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 27ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Sep 12 01:07:11 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 30ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/videos" for 127.0.0.1 at Sun Sep 12 01:08:29 -0600 2010
+  Processing by VideosController#create as HTML
+  Parameters: {"utf8"=>"✓", "video"=>{"title"=>"3 Andys", "panda_video_id"=>"95321ab81d1455ec63cec4c5c6015f45"}}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "videos" ("created_at", "panda_video_id", "title", "updated_at") VALUES ('2010-09-12 07:08:29.828683', '95321ab81d1455ec63cec4c5c6015f45', '3 Andys', '2010-09-12 07:08:29.828683')
+Redirected to http://localhost:3000/videos/2
+Completed 302 Found in 42ms
+
+
+Started GET "/videos/2" for 127.0.0.1 at Sun Sep 12 01:08:29 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE ("videos"."id" = 2) LIMIT 1[0m
+Rendered videos/show.html.erb within layouts/application (266.7ms)
+Completed 200 OK in 1005ms (Views: 272.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/2" for 127.0.0.1 at Sun Sep 12 01:08:39 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 2) LIMIT 1
+Rendered videos/show.html.erb within layouts/application (563.7ms)
+Completed 200 OK in 1199ms (Views: 568.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/0" for 127.0.0.1 at Sun Sep 12 01:08:40 -0600 2010
+  Processing by VideosController#show as */*
+  Parameters: {"id"=>"0"}
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE ("videos"."id" = 0) LIMIT 1[0m
+Completed   in 8ms
+
+ActiveRecord::RecordNotFound (Couldn't find Video with ID=0):
+  app/controllers/videos_controller.rb:3:in `show'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.4ms)
+
+
+Started GET "/videos/2" for 127.0.0.1 at Sun Sep 12 01:08:43 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 2) LIMIT 1
+Rendered videos/show.html.erb within layouts/application (264.7ms)
+Completed 200 OK in 900ms (Views: 270.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/0" for 127.0.0.1 at Sun Sep 12 01:08:44 -0600 2010
+  Processing by VideosController#show as */*
+  Parameters: {"id"=>"0"}
+  [1m[36mVideo Load (0.1ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE ("videos"."id" = 0) LIMIT 1[0m
+Completed   in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Video with ID=0):
+  app/controllers/videos_controller.rb:3:in `show'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+
+
+Started GET "/videos/2" for 127.0.0.1 at Sun Sep 12 01:08:52 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 2) LIMIT 1
+Rendered videos/show.html.erb within layouts/application (299.9ms)
+Completed 200 OK in 935ms (Views: 304.8ms | ActiveRecord: 0.3ms)
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateVideos (20100911224351)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("videos")
+  [1m[36mSQL (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("videos")
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.1ms)[0m  [1mCREATE TABLE "videos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "panda_video_id" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (0.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20100911224351')
+
+
+Started GET "/" for 127.0.0.1 at Thu Sep 16 22:27:01 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed   in 6ms
+
+NoMethodError (undefined method `panda_video' for #<Class:0x10350f0d8>):
+  app/controllers/videos_controller.rb:25:in `index'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.6ms)
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" LIMIT 1
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos" LIMIT 1[0m
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" LIMIT 1
+
+
+Started GET "/" for 127.0.0.1 at Thu Sep 16 23:07:42 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Completed   in 345ms
+
+NoMethodError (undefined method `encodings' for #<Video:0x1032eaf28>):
+  app/controllers/videos_controller.rb:31:in `index'
+  app/controllers/videos_controller.rb:30:in `collect'
+  app/controllers/videos_controller.rb:30:in `index'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Sep 16 23:09:07 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Completed   in 329ms
+
+NoMethodError (undefined method `encodings' for #<Video:0x1032eaf28>):
+  app/controllers/videos_controller.rb:31:in `index'
+  app/controllers/videos_controller.rb:30:in `collect'
+  app/controllers/videos_controller.rb:30:in `index'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Sep 16 23:10:00 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (762.0ms)
+Completed   in 797ms
+
+ActionView::Template::Error (undefined method `url' for nil:NilClass):
+    2: <% @videos.each do |video| %>
+    3: 	<%= video.title %>
+    4: 	<video id="movie" width="320" height="240" preload="none" 
+    5:     poster="<%= video.h264_encoding.url %>" controls>
+    6:     <source src="<%= video.h264_encoding.url %>" type="video/mp4">
+    7:   	</video>
+    8: <% end %>
+  app/views/videos/index.html.erb:5:in `_app_views_videos_index_html_erb__2085565665_2174170940_0'
+  app/views/videos/index.html.erb:2:in `_app_views_videos_index_html_erb__2085565665_2174170940_0'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "videos" WHERE 1=1
+
+
+Started GET "/" for 127.0.0.1 at Thu Sep 16 23:14:53 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 39ms (Views: 7.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/videos/new" for 127.0.0.1 at Thu Sep 16 23:15:05 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 26ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videos/new" for 127.0.0.1 at Thu Sep 16 23:15:52 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 25ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/videos" for 127.0.0.1 at Thu Sep 16 23:16:16 -0600 2010
+  Processing by VideosController#create as HTML
+  Parameters: {"utf8"=>"✓", "video"=>{"title"=>"Soren Bday", "panda_video_id"=>"639e7702f364f7c3b18d5214e77e867e"}}
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "videos" ("created_at", "panda_video_id", "title", "updated_at") VALUES ('2010-09-17 05:16:16.776725', '639e7702f364f7c3b18d5214e77e867e', 'Soren Bday', '2010-09-17 05:16:16.776725')
+Redirected to http://localhost:3000/videos/3
+Completed 302 Found in 47ms
+
+
+Started GET "/videos/3" for 127.0.0.1 at Thu Sep 16 23:16:16 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE ("videos"."id" = 3) LIMIT 1[0m
+Rendered videos/show.html.erb within layouts/application (262.0ms)
+Completed 200 OK in 864ms (Views: 267.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/new" for 127.0.0.1 at Thu Sep 16 23:16:36 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 17ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videos/3" for 127.0.0.1 at Thu Sep 16 23:17:55 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 3) LIMIT 1
+Rendered videos/show.html.erb within layouts/application (592.0ms)
+Completed 200 OK in 1207ms (Views: 597.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:18:17 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (842.0ms)
+Completed 200 OK in 854ms (Views: 847.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:18:50 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (838.7ms)
+Completed 200 OK in 850ms (Views: 843.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:19:38 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.7ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (816.6ms)
+Completed 200 OK in 828ms (Views: 820.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:21:15 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (742.3ms)
+Completed 200 OK in 753ms (Views: 746.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:21:19 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (1458.3ms)
+Completed 200 OK in 1544ms (Views: 1462.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:25:30 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (860.1ms)
+Completed 200 OK in 871ms (Views: 865.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:25:33 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (915.1ms)
+Completed 200 OK in 927ms (Views: 920.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:26:25 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (955.9ms)
+Completed 200 OK in 968ms (Views: 961.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/new" for 127.0.0.1 at Thu Sep 16 23:26:37 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 17ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videos/new" for 127.0.0.1 at Thu Sep 16 23:27:46 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 92ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/videos" for 127.0.0.1 at Thu Sep 16 23:28:04 -0600 2010
+  Processing by VideosController#create as HTML
+  Parameters: {"utf8"=>"✓", "video"=>{"title"=>"3 Andys", "panda_video_id"=>"07383c1865577aeb1fe46b547a997190"}}
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "videos" ("created_at", "panda_video_id", "title", "updated_at") VALUES ('2010-09-17 05:28:04.105975', '07383c1865577aeb1fe46b547a997190', '3 Andys', '2010-09-17 05:28:04.105975')[0m
+Redirected to http://localhost:3000/videos/4
+Completed 302 Found in 15ms
+
+
+Started GET "/videos/4" for 127.0.0.1 at Thu Sep 16 23:28:04 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 4) LIMIT 1
+Rendered videos/show.html.erb within layouts/application (280.9ms)
+Completed 200 OK in 1084ms (Views: 285.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/4" for 127.0.0.1 at Thu Sep 16 23:29:28 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE ("videos"."id" = 4) LIMIT 1[0m
+Rendered videos/show.html.erb within layouts/application (261.1ms)
+Completed 200 OK in 889ms (Views: 265.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:30:36 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (1908.8ms)
+Completed 200 OK in 1920ms (Views: 1913.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:30:43 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.7ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (2013.0ms)
+Completed 200 OK in 2099ms (Views: 2092.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:31:38 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (1741.3ms)
+Completed 200 OK in 1753ms (Views: 1746.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:32:30 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (1751.3ms)
+Completed 200 OK in 1763ms (Views: 1756.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:36:52 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.6ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (1762.3ms)
+Completed 200 OK in 1773ms (Views: 1765.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/videos/" for 127.0.0.1 at Thu Sep 16 23:37:08 -0600 2010
+  Processing by VideosController#index as HTML
+Completed   in 7ms
+
+NoMethodError (You specified nil as the layout, but no such method was found):
+  
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.4ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.7ms)
+
+
+Started GET "/videos/4" for 127.0.0.1 at Thu Sep 16 23:37:41 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 4) LIMIT 1
+Rendered videos/show.html.erb within layouts//application (262.1ms)
+Completed 200 OK in 930ms (Views: 266.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/4" for 127.0.0.1 at Thu Sep 16 23:38:22 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE ("videos"."id" = 4) LIMIT 1[0m
+Rendered videos/show.html.erb within layouts/application (232.9ms)
+Completed 200 OK in 749ms (Views: 237.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Sep 16 23:41:20 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (2070.5ms)
+Completed 200 OK in 2081ms (Views: 2074.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Sep 16 23:42:13 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (2146.1ms)
+Completed 200 OK in 2158ms (Views: 2151.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Sep 16 23:55:57 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (2562.4ms)
+Completed 200 OK in 2598ms (Views: 2567.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Sep 16 23:56:47 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (1889.9ms)
+Completed   in 1907ms
+
+ActionView::Template::Error (undefined method `stylesheet_include_tag' for #<#<Class:0x103816510>:0x103813630>):
+    7: 
+    8:   <%= javascript_include_tag  'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js' %>  
+    9:   <%= javascript_include_tag '/panda_uploader/jquery.panda-uploader-1.0.min.js' %>
+    10:   <%= stylesheet_include_tag 'scaffold' %>
+    11: 
+    12:   <!-- For swf player -->
+    13:   <%= javascript_include_tag 'swfobject' %>
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___743036600_2176871740_0'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Sep 16 23:58:24 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (1765.7ms)
+Completed 200 OK in 1777ms (Views: 1770.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Sep 17 00:00:35 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (1769.2ms)
+Completed 200 OK in 1782ms (Views: 1775.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Sep 17 00:03:42 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (1698.9ms)
+Completed 200 OK in 1710ms (Views: 1703.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Sep 17 00:18:45 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (1667.9ms)
+Completed 200 OK in 1680ms (Views: 1672.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Sep 17 00:20:55 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (2808.8ms)
+Completed 200 OK in 2820ms (Views: 2813.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Sep 17 00:22:01 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (1629.5ms)
+Completed 200 OK in 1640ms (Views: 1633.9ms | ActiveRecord: 0.4ms)
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.2ms)[0m  CREATE TABLE "videos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "panda_video_id" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (1.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20100911224351')[0m
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.0ms)[0m  CREATE TABLE "videos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "panda_video_id" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20100911224351')[0m
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.2ms)[0m  CREATE TABLE "videos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "panda_video_id" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20100911224351')[0m
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.2ms)[0m  CREATE TABLE "videos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "panda_video_id" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20100911224351')[0m
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.3ms)[0m  CREATE TABLE "videos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "panda_video_id" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (1.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20100911224351')[0m
+
+
+Started GET "/" for 127.0.0.1 at Fri Sep 17 00:41:29 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (1933.6ms)
+Completed 200 OK in 1972ms (Views: 1939.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Sep 17 00:44:38 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (834.8ms)
+Completed   in 848ms
+
+ActionView::Template::Error (undefined local variable or method `show_video_path' for #<#<Class:0x1037ebe50>:0x1037e69c8>):
+    15: 			    poster="<%= video.h264_encoding.screenshots.second %>" controls>
+    16: 			    <source src="<%= video.h264_encoding.url %>" type="video/mp4">
+    17: 			  	</video>
+    18: 			<%= link_to ("View full size", show_video_path) %>
+    19: 			</p>
+    20: 		<% end %>
+    21: 	</div> 
+  app/views/videos/index.html.erb:18:in `_app_views_videos_index_html_erb__2085565665_2176788260_0'
+  app/views/videos/index.html.erb:11:in `_app_views_videos_index_html_erb__2085565665_2176788260_0'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Sep 17 00:45:52 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (737.6ms)
+Completed   in 750ms
+
+ActionView::Template::Error (undefined local variable or method `show_video_path' for #<#<Class:0x103004818>:0x102fffc78>):
+    15: 			    poster="<%= video.h264_encoding.screenshots.second %>" controls>
+    16: 			    <source src="<%= video.h264_encoding.url %>" type="video/mp4">
+    17: 			  	</video>
+    18: 			<%= link_to "View full size", show_video_path %>
+    19: 			</p>
+    20: 		<% end %>
+    21: 	</div> 
+  app/views/videos/index.html.erb:18:in `_app_views_videos_index_html_erb__2085565665_2172640960_0'
+  app/views/videos/index.html.erb:11:in `_app_views_videos_index_html_erb__2085565665_2172640960_0'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Sep 17 00:46:48 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (933.1ms)
+Completed   in 948ms
+
+ActionView::Template::Error (undefined method `show_video_path' for #<#<Class:0x103150780>:0x10314e9d0>):
+    15: 			    poster="<%= video.h264_encoding.screenshots.second %>" controls>
+    16: 			    <source src="<%= video.h264_encoding.url %>" type="video/mp4">
+    17: 			  	</video>
+    18: 			<%= link_to "View full size", show_video_path(video) %>
+    19: 			</p>
+    20: 		<% end %>
+    21: 	</div> 
+  app/views/videos/index.html.erb:18:in `_app_views_videos_index_html_erb__2085565665_2173330360_0'
+  app/views/videos/index.html.erb:11:in `_app_views_videos_index_html_erb__2085565665_2173330360_0'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Sep 17 00:47:43 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (806.7ms)
+Completed   in 818ms
+
+ActionView::Template::Error (undefined method `show_video_path' for #<#<Class:0x10374c350>:0x103740078>):
+    15: 			    poster="<%= video.h264_encoding.screenshots.second %>" controls>
+    16: 			    <source src="<%= video.h264_encoding.url %>" type="video/mp4">
+    17: 			  	</video>
+    18: 			<%= link_to "View full size", show_video_path(video) %>
+    19: 			</p>
+    20: 		<% end %>
+    21: 	</div> 
+  app/views/videos/index.html.erb:18:in `_app_views_videos_index_html_erb__2085565665_2176341580_0'
+  app/views/videos/index.html.erb:11:in `_app_views_videos_index_html_erb__2085565665_2176341580_0'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Sep 17 00:50:00 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (2097.3ms)
+Completed 200 OK in 2108ms (Views: 2101.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/4" for 127.0.0.1 at Fri Sep 17 00:50:06 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 4) LIMIT 1
+ERROR: compiling _app_views_videos_show_html_erb___1026844266_2172703800_0 RAISED compile error
+/Users/bhays/Sites/minivid/app/views/videos/show.html.erb:24: syntax error, unexpected $undefined, expecting ')'
+    so.addVariable(\'image\',\'');@output_buffer.a...
+                    ^
+/Users/bhays/Sites/minivid/app/views/videos/show.html.erb:25: syntax error, unexpected $undefined, expecting ')'
+    so.write(\'flash_player\');
+              ^
+Function body:           def _app_views_videos_show_html_erb___1026844266_2172703800_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "videos/show";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h2>');@output_buffer.append= ( @video.title );@output_buffer.safe_concat('</h2>
+
+<p>Here\'s the raw Panda information:</p>
+
+<p>');@output_buffer.append= ( h @video.panda_video.inspect );@output_buffer.safe_concat('</p>
+
+'); if @video.panda_video.status == "success" 
+@output_buffer.safe_concat('  
+  <!-- HTML5 player -->
+  <video class="sublime"id="movie" width="');@output_buffer.append= ( video.h264_encoding.width );@output_buffer.safe_concat('" height="');@output_buffer.append= ( video.h264_encoding.height );@output_buffer.safe_concat('" preload="none" 
+    poster="');@output_buffer.append= ( @h264_encoding.screenshots.first );@output_buffer.safe_concat('" controls>
+    <source src="');@output_buffer.append= ( @h264_encoding.url );@output_buffer.safe_concat('" type="video/mp4">
+  </video>
+  
+  <!-- Flash player -->
+  <!-- <div id=\'flash_player\'>Flash player will appear here</div>
+
+  <script type=\'text/javascript\'>
+    var so = new SWFObject(\'/player.swf\',\'mpl\',\'320\',\'240\',\'9\');
+    so.addParam(\'allowfullscreen\',\'true\');
+    so.addParam(\'allowscriptaccess\',\'always\');
+    so.addParam(\'wmode\',\'opaque\');
+    so.addVariable(\'file\',\'');@output_buffer.append= ( # @h264_encoding.url );@output_buffer.safe_concat('\');
+    so.addVariable(\'image\',\'');@output_buffer.append= ( # @h264_encoding.screenshots.first );@output_buffer.safe_concat('\');
+    so.write(\'flash_player\');
+  </script> -->
+  
+'); end ;@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/bhays/Sites/minivid/app/views/videos/show.html.erb:31:in `compile'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_view/template.rb:134:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications.rb:54:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_view/template.rb:127:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:59:in `_render_template'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:26:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:114:in `_render_template'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:108:in `render_to_body'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:101:in `render_to_string'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:92:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activerecord-3.0.0/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:430:in `_run__573089636__process_action__453433196__callbacks'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:409:in `send'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:93:in `send'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:119:in `process'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:40:in `process'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal.rb:133:in `dispatch'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal.rb:173:in `action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `recognize'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:89:in `optimized_each'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/cookies.rb:287:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activerecord-3.0.0/lib/active_record/query_cache.rb:32:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activerecord-3.0.0/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activerecord-3.0.0/lib/active_record/query_cache.rb:12:in `cache'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activerecord-3.0.0/lib/active_record/query_cache.rb:31:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activerecord-3.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/rack/logger.rb:13:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/application.rb:168:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/application.rb:77:in `send'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/application.rb:77:in `method_missing'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/handler/webrick.rb:13:in `run'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/server.rb:213:in `start'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/commands/server.rb:65:in `start'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/commands.rb:30
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/commands.rb:27:in `tap'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered videos/show.html.erb within layouts/application (1.1ms)
+Completed   in 600ms
+
+ActionView::Template::Error (compile error
+/Users/bhays/Sites/minivid/app/views/videos/show.html.erb:24: syntax error, unexpected $undefined, expecting ')'
+    so.addVariable(\'image\',\'');@output_buffer.a...
+                    ^
+/Users/bhays/Sites/minivid/app/views/videos/show.html.erb:25: syntax error, unexpected $undefined, expecting ')'
+    so.write(\'flash_player\');
+              ^):
+    21:     so.addParam('allowscriptaccess','always');
+    22:     so.addParam('wmode','opaque');
+    23:     so.addVariable('file','<%= # @h264_encoding.url %>');
+    24:     so.addVariable('image','<%= # @h264_encoding.screenshots.first %>');
+    25:     so.write('flash_player');
+    26:   </script> -->
+    27:   
+  app/views/videos/show.html.erb:31:in `compile'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (278.6ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (285.1ms)
+
+
+Started GET "/videos/4" for 127.0.0.1 at Fri Sep 17 00:50:46 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE ("videos"."id" = 4) LIMIT 1[0m
+Rendered videos/show.html.erb within layouts/application (277.0ms)
+Completed   in 935ms
+
+ActionView::Template::Error (undefined local variable or method `video' for #<#<Class:0x1033d1900>:0x1033cfad8>):
+    7: <% if @video.panda_video.status == "success" %>
+    8:   
+    9:   <!-- HTML5 player -->
+    10:   <video class="sublime"id="movie" width="<%= video.h264_encoding.width %>" 
+    11: 	height="<%= video.h264_encoding.height %>" preload="none" 
+    12:     poster="<%= @h264_encoding.screenshots.first %>" controls>
+    13:     <source src="<%= @h264_encoding.url %>" type="video/mp4">
+  app/views/videos/show.html.erb:10:in `_app_views_videos_show_html_erb___1026844266_2174644440_0'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/videos/4" for 127.0.0.1 at Fri Sep 17 00:51:58 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 4) LIMIT 1
+ERROR: compiling _app_views_videos_show_html_erb___1026844266_2172032360_0 RAISED compile error
+/Users/bhays/Sites/minivid/app/views/videos/show.html.erb:24: syntax error, unexpected $undefined, expecting ')'
+    so.addVariable(\'image\',\'');@output_buffer.a...
+                    ^
+/Users/bhays/Sites/minivid/app/views/videos/show.html.erb:25: syntax error, unexpected $undefined, expecting ')'
+    so.write(\'flash_player\');
+              ^
+Function body:           def _app_views_videos_show_html_erb___1026844266_2172032360_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "videos/show";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h2>');@output_buffer.append= ( @video.title );@output_buffer.safe_concat('</h2>
+
+<p>Here\'s the raw Panda information:</p>
+
+<p>');@output_buffer.append= ( h @video.panda_video.inspect );@output_buffer.safe_concat('</p>
+
+'); if @video.panda_video.status == "success" 
+@output_buffer.safe_concat('  
+  <!-- HTML5 player -->
+  <video class="sublime"id="movie" width="');@output_buffer.append= ( @h264_encoding.width );@output_buffer.safe_concat('" height="');@output_buffer.append= ( @h264_encoding.height );@output_buffer.safe_concat('" preload="none" 
+    poster="');@output_buffer.append= ( @h264_encoding.screenshots.first );@output_buffer.safe_concat('" controls>
+    <source src="');@output_buffer.append= ( @h264_encoding.url );@output_buffer.safe_concat('" type="video/mp4">
+  </video>
+  
+  <!-- Flash player -->
+  <!-- <div id=\'flash_player\'>Flash player will appear here</div>
+
+  <script type=\'text/javascript\'>
+    var so = new SWFObject(\'/player.swf\',\'mpl\',\'320\',\'240\',\'9\');
+    so.addParam(\'allowfullscreen\',\'true\');
+    so.addParam(\'allowscriptaccess\',\'always\');
+    so.addParam(\'wmode\',\'opaque\');
+    so.addVariable(\'file\',\'');@output_buffer.append= ( # @h264_encoding.url );@output_buffer.safe_concat('\');
+    so.addVariable(\'image\',\'');@output_buffer.append= ( # @h264_encoding.screenshots.first );@output_buffer.safe_concat('\');
+    so.write(\'flash_player\');
+  </script> -->
+  
+'); end ;@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/bhays/Sites/minivid/app/views/videos/show.html.erb:31:in `compile'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_view/template.rb:134:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications.rb:54:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_view/template.rb:127:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:59:in `_render_template'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:26:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:114:in `_render_template'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:108:in `render_to_body'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:101:in `render_to_string'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:92:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activerecord-3.0.0/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:430:in `_run__573089636__process_action__453433196__callbacks'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:409:in `send'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:93:in `send'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:119:in `process'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:40:in `process'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal.rb:133:in `dispatch'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_controller/metal.rb:173:in `action'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `recognize'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:89:in `optimized_each'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/cookies.rb:287:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activerecord-3.0.0/lib/active_record/query_cache.rb:32:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activerecord-3.0.0/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activerecord-3.0.0/lib/active_record/query_cache.rb:12:in `cache'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activerecord-3.0.0/lib/active_record/query_cache.rb:31:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activerecord-3.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/rack/logger.rb:13:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/activesupport-3.0.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/application.rb:168:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/application.rb:77:in `send'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/application.rb:77:in `method_missing'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/bhays/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/handler/webrick.rb:13:in `run'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/rack-1.2.1/lib/rack/server.rb:213:in `start'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/commands/server.rb:65:in `start'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/commands.rb:30
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/commands.rb:27:in `tap'
+/Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/railties-3.0.0/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered videos/show.html.erb within layouts/application (1.1ms)
+Completed   in 641ms
+
+ActionView::Template::Error (compile error
+/Users/bhays/Sites/minivid/app/views/videos/show.html.erb:24: syntax error, unexpected $undefined, expecting ')'
+    so.addVariable(\'image\',\'');@output_buffer.a...
+                    ^
+/Users/bhays/Sites/minivid/app/views/videos/show.html.erb:25: syntax error, unexpected $undefined, expecting ')'
+    so.write(\'flash_player\');
+              ^):
+    21:     so.addParam('allowscriptaccess','always');
+    22:     so.addParam('wmode','opaque');
+    23:     so.addVariable('file','<%= # @h264_encoding.url %>');
+    24:     so.addVariable('image','<%= # @h264_encoding.screenshots.first %>');
+    25:     so.write('flash_player');
+    26:   </script> -->
+    27:   
+  app/views/videos/show.html.erb:31:in `compile'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (357.6ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (363.4ms)
+
+
+Started GET "/videos/4" for 127.0.0.1 at Fri Sep 17 00:52:27 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE ("videos"."id" = 4) LIMIT 1[0m
+Rendered videos/show.html.erb within layouts/application (262.4ms)
+Completed 200 OK in 856ms (Views: 267.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/4" for 127.0.0.1 at Fri Sep 17 00:53:49 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 4) LIMIT 1
+Rendered videos/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 682ms (Views: 7.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/4" for 127.0.0.1 at Fri Sep 17 00:54:25 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE ("videos"."id" = 4) LIMIT 1[0m
+Rendered videos/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 566ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/4" for 127.0.0.1 at Fri Sep 17 00:55:31 -0600 2010
+  Processing by VideosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE ("videos"."id" = 4) LIMIT 1
+Rendered videos/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 810ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos" for 127.0.0.1 at Fri Sep 17 00:55:35 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (1720.1ms)
+Completed 200 OK in 1731ms (Views: 1724.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Sep 17 16:21:13 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5
+Rendered videos/index.html.erb within layouts/application (2314.6ms)
+Completed 200 OK in 2354ms (Views: 2320.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/videos/new" for 127.0.0.1 at Fri Sep 17 16:21:21 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 20ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videos/new" for 127.0.0.1 at Fri Sep 17 16:28:20 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (7.8ms)
+Completed   in 17ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.errors):
+    8: 
+    9: <%= form_for @video do |f| %>
+    10: 
+    11:   <% if @product.errors.any? %>
+    12:     <div id="error_explanation"> 
+    13: 		<h2>Sorry, couldn't save your video because:</h2>
+    14:   		<ul>
+  app/views/videos/new.html.erb:11:in `_app_views_videos_new_html_erb__316013379_2174691900_0'
+  app/views/videos/new.html.erb:9:in `_app_views_videos_new_html_erb__316013379_2174691900_0'
+
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Users/bhays/.rvm/gems/ruby-1.8.7-p302@rails3/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.3ms)
+
+
+Started GET "/videos/new" for 127.0.0.1 at Fri Sep 17 16:28:42 -0600 2010
+  Processing by VideosController#new as HTML
+Rendered videos/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 23ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videos" for 127.0.0.1 at Fri Sep 17 16:43:47 -0600 2010
+  Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos" ORDER BY created_at DESC LIMIT 5[0m
+Rendered videos/index.html.erb within layouts/application (1717.3ms)
+Completed 200 OK in 1729ms (Views: 1721.7ms | ActiveRecord: 0.4ms)
