@@ -9,6 +9,7 @@
   <%= javascript_include_tag '/panda_uploader/jquery.panda-uploader-1.0.min.js' %>
   <%= javascript_include_tag 'http://cdn.sublimevideo.net/js/k9uo5yk3.js'%>
   <%= stylesheet_link_tag '/stylesheets/scaffold' %>
+  <%= stylesheet_link_tag '/stylesheets/bootstrap' %>
 
   <!-- For swf player -->
   <%= javascript_include_tag 'swfobject' %>
@@ -18,14 +19,20 @@
 </head>
 
 <body>
-	
-<h1><%= link_to "Minivid", videos_path %></h1>
+<div class="topbar">	
+  <div class="fill">
+    <div class="container">
+      <h3><%= link_to "Minivid", videos_path %></h3>
+    </div>
+  </div>
+</div>
 
-<h3>Nothing over 1 minute. Because life's too short for boring videos.</h3><br />
+<div class="container">
+  <p style="color: green"><%= flash[:notice] %></p>
 
-<p style="color: green"><%= flash[:notice] %></p>
-
-<%= yield %>
+  <h3>Nothing over 1 minute. Because life's too short for boring videos.</h3><br />
+  <%= yield %>
+</div>
 
 </body>
 </html>
